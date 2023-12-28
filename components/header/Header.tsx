@@ -6,7 +6,7 @@ import SectionLinks from "./SectionLinks";
 
 const Header = () => {
     return (
-        <header className="container flex justify-between py-3">
+        <header className="container top-0 mb-4 flex justify-between py-3 md:sticky">
             <Link href="/" className="flex items-center gap-2">
                 <Image
                     src={logo}

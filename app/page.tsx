@@ -1,9 +1,10 @@
-import Banner from "@/components/banner/Banner";
+import { Advocate, Banner } from "@/components";
 
 const HomePage = () => {
     return (
         <>
             <Banner />
+            <Advocate />
         </>
     );
 };

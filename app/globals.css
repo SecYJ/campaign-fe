@@ -11,6 +11,10 @@
     h6 {
         @apply font-bold;
     }
+
+    body {
+        @apply text-text-primary;
+    }
 }
 
 .primary-shadow {
@@ -28,5 +32,5 @@
 }
 
 .marquee-animation {
-    animation: marquee 10s linear infinite;
+    /* animation: marquee 10s linear infinite; */
 }

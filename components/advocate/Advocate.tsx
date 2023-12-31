@@ -1,17 +1,12 @@
-import { Badge } from "../badge";
+import TitleWithBadge from "../titleWithBadge/TitleWithBadge";
 
 const Advocate = () => {
     return (
         <section className="bg-bg-theme-2">
             <div className="container py-16 lg:py-24">
-                <figure className="lg:grid lg:grid-cols-2">
+                <div className="lg:grid lg:grid-cols-2">
                     <article className="space-y-8 text-balance rounded-tl-3xl rounded-tr-3xl bg-white px-6 py-10 lg:rounded-none lg:rounded-bl-3xl lg:rounded-tl-3xl lg:px-10 lg:py-16">
-                        <div className="text-center">
-                            <Badge className="px-3 py-2">ADVOCATE</Badge>
-                            <figcaption className="bg-primary-gradient bg-clip-text text-[3.25rem] text-transparent lg:text-[4rem]">
-                                候選人主張
-                            </figcaption>
-                        </div>
+                        <TitleWithBadge title="候選人主張" badge="ADVOCATE" />
                         <p className="text-2xl font-bold text-text-primary lg:text-3xl">
                             我堅信 ! 藉由推動更完善的
                             <strong className="text-color-primary">
@@ -40,7 +35,7 @@ const Advocate = () => {
                             alt="候選人主張"
                         />
                     </picture>
-                </figure>
+                </div>
             </div>
         </section>
     );

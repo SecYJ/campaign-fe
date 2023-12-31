@@ -1,4 +1,5 @@
 import { Badge } from "../badge";
+import CandidateName from "../candidateName/CandidateName";
 import SocialLinks from "../header/SocialLinks";
 import Marquee from "./Marquee";
 
@@ -14,13 +15,8 @@ const Banner = () => {
                     <Badge className="px-4 py-3 text-xl lg:text-[1.75rem]">
                         2024 立委參選人
                     </Badge>
-                    <div className="primary-shadow flex items-center gap-4 rounded-2xl border border-white bg-white/90 px-4 py-3">
-                        <div className="grid size-10 place-items-center rounded-full bg-primary-gradient text-white md:text-2xl lg:text-3xl">
-                            3
-                        </div>
-                        <h2 className="text-[1.75rem] text-color-primary lg:text-[2.5rem]">
-                            喵立翰 Miao Li-Han
-                        </h2>
+                    <div className="primary-shadow rounded-2xl border border-white bg-white/90 px-4 py-3">
+                        <CandidateName />
                     </div>
                 </div>
 
@@ -46,7 +42,6 @@ const Banner = () => {
                     </nav>
                 </div>
             </section>
-            {/* marquee */}
             <Marquee />
         </>
     );

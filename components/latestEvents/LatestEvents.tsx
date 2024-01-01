@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { TitleWithBadge } from "../titleWithBadge";
+import { TitleWithBadge } from "@/components";
 import { eventData } from "@/constants/latestEvents";
 
 const LatestEvents = () => {

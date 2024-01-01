@@ -1,8 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
+import { SocialLinks } from "@/components";
 import SectionLinks from "./SectionLinks";
-import SocialLinks from "./SocialLinks";
-import logo from "@/public/logo.svg";
 
 const Header = () => {
     return (
@@ -10,7 +9,7 @@ const Header = () => {
             <header className="container mb-4 flex justify-between py-3">
                 <Link href="/" className="flex items-center gap-2">
                     <Image
-                        src={logo}
+                        src="/logo.svg"
                         alt="喵立翰 Miao Li-Han"
                         width={52}
                         height={42}

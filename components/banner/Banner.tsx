@@ -1,6 +1,4 @@
-import { Badge } from "../badge";
-import CandidateName from "../candidateName/CandidateName";
-import SocialLinks from "../header/SocialLinks";
+import { CandidateName, SocialLinks, Badge } from "@/components";
 import Marquee from "./Marquee";
 
 const Banner = () => {

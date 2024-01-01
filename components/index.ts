@@ -4,3 +4,8 @@ export * from "./advocate";
 export * from "./latestEvents";
 export * from "./footer";
 export * from "./policy";
+export * from "./socialLinks";
+export * from "./candidateName";
+export * from "./badge";
+export * from "./titleWithBadge";
+export * from "./modal";

@@ -1,5 +1,5 @@
 import { ReactNode } from "react";
-import { Badge } from "../badge";
+import { Badge } from "@/components";
 
 interface Props {
     badge: ReactNode;

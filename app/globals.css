@@ -12,6 +12,10 @@
         @apply font-bold;
     }
 
+    html {
+        scroll-behavior: smooth;
+    }
+
     body {
         @apply text-text-primary;
     }

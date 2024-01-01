@@ -1,15 +1,18 @@
 import Image from "next/image";
-import { SOCIALS } from "@/constants";
+import { SOCIALS, SHARE_SOCIALS } from "@/constants/socials";
 import { cn } from "@/utils/cn";
 
 interface Props {
     rounded?: boolean;
+    share?: boolean;
 }
 
-const SocialLinks = ({ rounded }: Props) => {
+const SocialLinks = ({ rounded, share }: Props) => {
+    const links = share ? SHARE_SOCIALS : SOCIALS;
+
     return (
         <ul className="flex items-center gap-4">
-            {SOCIALS.map(({ name, icon, link }) => (
+            {links.map(({ name, icon, link }) => (
                 <li key={name}>
                     <a
                         href={link}

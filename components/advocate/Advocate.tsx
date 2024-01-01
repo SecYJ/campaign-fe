@@ -1,4 +1,4 @@
-import TitleWithBadge from "../titleWithBadge/TitleWithBadge";
+import { TitleWithBadge } from "@/components";
 
 const Advocate = () => {
     return (

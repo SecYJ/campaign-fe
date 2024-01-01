@@ -1,5 +1,4 @@
-import { CandidateName } from "@/components/candidateName";
-import SocialLinks from "@/components/header/SocialLinks";
+import { CandidateName, SocialLinks } from "@/components";
 
 const Footer = () => {
     return (
@@ -9,7 +8,8 @@ const Footer = () => {
                     <CandidateName />
                     <SocialLinks rounded />
                     <p className="text-sm">
-                        © 2023 喵立翰 Miao Li-Han 版權所有
+                        © {new Date().getFullYear()} 喵立翰 Miao Li-Han
+                        版權所有
                     </p>
                 </section>
                 <section>
